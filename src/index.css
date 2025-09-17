@@ -1,0 +1,33 @@
+"@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  index.css - Configuração de estilos globais do projeto PEGADA
+  -------------------------------------------------------------
+  O Tailwind já traz classes utilitárias prontas para estilização responsiva.
+  Aqui adicionamos comentários para explicar como funciona a configuração e
+  também um estilo global para o body.
+*/
+
+/* Reset e estilo base aplicado a todo o body */
+body {
+  /* Fonte padrão para o site */
+  font-family: Arial, sans-serif;
+
+  /* Cor de fundo neutra */
+  background-color: #f3f4f6; /* equivalente a bg-gray-100 do Tailwind */
+
+  /* Remove margens padrão do navegador */
+  margin: 0;
+
+  /* Garante altura mínima de 100% */
+  min-height: 100vh;
+}
+
+/* 
+  Observação:
+  - As classes do Tailwind (ex: bg-black, text-white, shadow-lg) são aplicadas
+    diretamente nos elementos dentro dos arquivos JSX.
+  - Este arquivo serve para ajustes globais e personalizações extras.
+*/
