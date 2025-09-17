@@ -4,6 +4,7 @@ import Portfolio from "./pages/Portfolio";
 import Register from "./pages/Register";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <main className="min-h-screen p-6 bg-gray-100">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/register" element={<Register />} />
         </Routes>
